@@ -1,0 +1,57 @@
+{
+  "name": "@anarklab/react-gmaps",
+  "version": "0.1.0",
+  "description": "Wrapper component for gmaps",
+  "main": "dist/GMaps.min.js",
+  "scripts": {
+    "build": "npm run lint && npm run clean && npm run babel && npm run minify",
+    "babel": "babel src -d dist",
+    "clean": "rm -Rf dist",
+    "minify": "uglifyjs -c -m -o dist/GMaps.min.js dist/GMaps.js",
+    "start": "npm run storybook",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "deploy-storybook": "storybook-to-ghpages",
+    "lint": "eslint src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anarklab/react-gmaps.git"
+  },
+  "keywords": [
+    "GMaps React Component"
+  ],
+  "author": "uselessdev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anarklab/react-gmaps/issues"
+  },
+  "homepage": "https://github.com/anarklab/react-gmaps#readme",
+  "dependencies": {
+    "gmaps": "^0.4.24",
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^3.2.12",
+    "@storybook/addon-info": "^3.2.12",
+    "@storybook/addon-links": "^3.2.12",
+    "@storybook/react": "^3.2.12",
+    "@storybook/storybook-deployer": "^2.0.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.0.1",
+    "babel-preset-airbnb": "^2.4.0",
+    "babel-register": "^6.26.0",
+    "eslint": "^4.9.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-config-standard-react": "^5.0.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.2.0",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-react": "^7.4.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "uglify-js": "^3.1.4"
+  }
+}
