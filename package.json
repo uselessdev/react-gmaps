@@ -1,6 +1,6 @@
 {
   "name": "@anarklab/react-gmaps",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Wrapper component for gmaps",
   "main": "dist/GMaps.min.js",
   "scripts": {
