@@ -32,7 +32,7 @@ The basic usage is passing `addr` props:
 Also, you can add `marker` as boolean attribute or an string to custom image
 ``` js
 <GMaps addr="Hell's Kitchen, New York, NY, USA" marker />
-# or
+// or
 <GMaps addr="Hell's Kitchen, New York, NY, USA" marker="path/to/your/custom/pin.png" />
 ```
 
