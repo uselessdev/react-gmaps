@@ -3016,8 +3016,8 @@ globby@^5.0.0:
     pinkie-promise "^2.0.0"
 
 gmaps@^0.4.24:
-  version "0.4.24"
-  resolved "https://registry.yarnpkg.com/gmaps/-/gmaps-0.4.24.tgz#07f22f0cfc3e4e32498950ffafd7ca635ffc100c"
+  version "0.4.25"
+  resolved "https://registry.yarnpkg.com/gmaps/-/gmaps-0.4.25.tgz#ea98fa83668fb07b879b47d989b5ee1504d33455"
 
 graceful-fs@^4.1.11, graceful-fs@^4.1.4:
   version "4.1.11"
