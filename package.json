@@ -34,7 +34,7 @@
     "react-dom": "^17.0.1"
   },
   "devDependencies": {
-    "@storybook/addon-actions": "^3.2.12",
+    "@storybook/addon-actions": "^6.1.17",
     "@storybook/addon-info": "^5.3.21",
     "@storybook/addon-links": "^6.1.17",
     "@storybook/react": "^3.2.12",
